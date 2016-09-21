@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<phpunit>
+    <filter>
+        <whitelist>
+            <file>src/ObjectArray.php</file>
+        </whitelist>
+    </filter>
+    <testsuite>
+        <directory>./</directory>
+    </testsuite>
+</phpunit>
