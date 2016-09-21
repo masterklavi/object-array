@@ -1,6 +1,6 @@
 <?php
 
-require 'ObjectArray.php';
+require 'src/ObjectArray.php';
 
 class User
 {

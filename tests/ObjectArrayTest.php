@@ -6,7 +6,7 @@ class ObjectArrayTest extends PHPUnit_Framework_TestCase
 
     static function setUpBeforeClass()
     {
-        require_once '../ObjectArray.php';
+        require_once '../src/ObjectArray.php';
         ObjectArrayTest::$invalid = [
             0, 1.1, true, null, [2], 'string', fopen('php://stdin', 'r')
         ];
